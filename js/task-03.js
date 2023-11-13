@@ -19,6 +19,6 @@ console.log(gallery);
 images.forEach((image) => {
   gallery.insertAdjacentHTML(
     "beforeend",
-    `<li><img src=${image.url} alt=${image.alt} height='360' /></li>`
+    `<li><img src=${image.url} alt=${image.alt} /></li>`
   );
 });
