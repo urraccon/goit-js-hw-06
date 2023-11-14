@@ -1,7 +1,8 @@
 const inputField = document.getElementById("validation-input");
 inputField.addEventListener("blur", (text) => {
-  if (inputField.value.length != inputField.dataset.length) {
-    // debugger;
+  debugger;
+  if (inputField.value.length !== Number(inputField.dataset.length)) {
+    debugger;
     inputField.classList.add("invalid");
     inputField.classList.remove("valid");
   } else {
